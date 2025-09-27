@@ -30,13 +30,13 @@ Depois, o teste parametrizado irá falhar 4 vezes (para um total de 6 execuçõe
 
 [ERROR] Tests run: 6, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.028 s <<< FAILURE! - in TesteParametrizado
 
-[ERROR] TesteParametrizado.testaSeNumeroPar1(int)[1]  Time elapsed: 0.011 s  <<< FAILURE!
+[ERROR] TesteParametrizado.testaSeNumeroParParametrizado(int)[1]  Time elapsed: 0.011 s  <<< FAILURE!
 
-[ERROR] TesteParametrizado.testaSeNumeroPar1(int)[3]  Time elapsed: 0.001 s  <<< FAILURE!
+[ERROR] TesteParametrizado.testaSeNumeroParParametrizado(int)[3]  Time elapsed: 0.001 s  <<< FAILURE!
 
-[ERROR] TesteParametrizado.testaSeNumeroPar1(int)[5]  Time elapsed: 0.001 s  <<< FAILURE!
+[ERROR] TesteParametrizado.testaSeNumeroParParametrizado(int)[5]  Time elapsed: 0.001 s  <<< FAILURE!
 
-[ERROR] TesteParametrizado.testaSeNumeroPar2  Time elapsed: 0.001 s  <<< FAILURE!
+[ERROR] TesteParametrizado.testaSeNumeroPar  Time elapsed: 0.001 s  <<< FAILURE!
 
 ```
 
