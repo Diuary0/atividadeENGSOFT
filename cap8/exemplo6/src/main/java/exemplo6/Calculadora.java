@@ -1,6 +1,6 @@
 public class Calculadora {
   
-  public static boolean isEven(int n) {
+  public static boolean par(int n) {
      return (n % 2) == 0;
   }
 

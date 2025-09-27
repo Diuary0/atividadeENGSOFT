@@ -15,7 +15,7 @@ public class TesteRepetido {
   // São recomendados no caso de testes flaky
   @RepeatedTest(5)
   void testaSeNumeroPar() {
-    assertTrue(Calculadora.isEven(2));
+    assertTrue(Calculadora.par(2));
   }
   
 }

@@ -20,21 +20,21 @@ public class TesteParametrizado {
   // parâmetros de cada chamada são informados explicitamente (@ValueSource)
   @ParameterizedTest
   @ValueSource(ints = { 1, 2, 3, 4, 5 })
-  void testaSeNumeroPar1(int n) {
-    assertTrue(Calculadora.isEven(n));
+  void testaSeNumeroParParametrizado(int n) {
+    assertTrue(Calculadora.par(n));
   }
 
   // teste não-parametrizado
   @Test
-  void testaSeNumeroPar2() {
-    assertTrue(Calculadora.isEven(1));  
+  void testaSeNumeroPar() {
+    assertTrue(Calculadora.par(1));  
 
     // como o assert anterior vai falhar
-    // na prática, os próximos assert não serão executados
-    assertTrue(Calculadora.isEven(2));
-    assertTrue(Calculadora.isEven(3));
-    assertTrue(Calculadora.isEven(4));
-    assertTrue(Calculadora.isEven(5));
+    // os próximos assert não serão executados
+    assertTrue(Calculadora.par(2));
+    assertTrue(Calculadora.par(3));
+    assertTrue(Calculadora.par(4));
+    assertTrue(Calculadora.par(5));
   }
   
 }
