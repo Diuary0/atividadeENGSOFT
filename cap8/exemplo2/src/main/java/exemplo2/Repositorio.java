@@ -4,8 +4,6 @@
 *
 */
 
-package exemplo2;
-
 import java.util.List;
 
 /**

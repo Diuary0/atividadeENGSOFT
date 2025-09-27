@@ -18,8 +18,6 @@
 *   significado e importância no domínio do sistema
 */
 
-package exemplo2;
-
 import java.util.List;
 
 /**

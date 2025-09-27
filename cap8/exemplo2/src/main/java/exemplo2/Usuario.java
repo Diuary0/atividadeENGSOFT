@@ -1,5 +1,3 @@
-package exemplo2;
-
 public class Usuario {
   private String id;
   private String nome;
