@@ -6,8 +6,6 @@
 *
 */
 
-package exemplo1;
-
 import java.util.ArrayList;
 import java.util.EmptyStackException;
 

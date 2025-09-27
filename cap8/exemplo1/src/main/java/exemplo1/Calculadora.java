@@ -10,8 +10,6 @@
 * Classe que será testada
 */
 
-package exemplo1;
-
 public class Calculadora {
 
   public int soma(int x, int y) {

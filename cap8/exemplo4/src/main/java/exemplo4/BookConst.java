@@ -6,8 +6,6 @@
 *
 */
 
-package exemplo4;
-
 class BookConst {
 
   public static String ESM = 

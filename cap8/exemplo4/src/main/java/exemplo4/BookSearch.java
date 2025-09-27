@@ -6,8 +6,6 @@
 *
 */
 
-package exemplo4;
-
 import org.json.JSONObject;
 
 public class BookSearch {

@@ -6,8 +6,6 @@
 *
 */
 
-package exemplo4;
-
 public class Book {
 
   String titulo;

@@ -6,8 +6,6 @@
 *
 */
 
-package exemplo4;
-
 public interface BookService {
   String search(int isbn);
 }
