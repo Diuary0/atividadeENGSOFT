@@ -15,9 +15,9 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class TesteParametrizado {
 
   // teste parametrizado
+  // parâmetros de cada chamada são informados explicitamente (@ValueSource)
   // ele será chamado 5 vezes pelo framework de teste
   // irá falhar para n = 1, 3, e 5
-  // parâmetros de cada chamada são informados explicitamente (@ValueSource)
   @ParameterizedTest
   @ValueSource(ints = { 1, 2, 3, 4, 5 })
   void testaSeNumeroParParametrizado(int n) {
