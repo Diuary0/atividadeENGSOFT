@@ -9,4 +9,5 @@ Exemplos de testes de unidade implementados usando JUnit 5.
 * [Exemplo 5](https://github.com/mtov/ESM-ExemplosCodigo/tree/master/cap8/exemplo5): Teste com mocks de métodos estáticos
 * [Exemplo 6](https://github.com/mtov/ESM-ExemplosCodigo/tree/master/cap8/exemplo6): Teste repetido e parametrizado
 * [Exemplo 7](https://github.com/mtov/ESM-ExemplosCodigo/tree/master/cap8/exemplo7): Exemplo simples de TDD
+* [Exemplo 8](https://github.com/mtov/ESM-ExemplosCodigo/tree/master/cap8/exemplo8): Exemplo de cobertura de comandos e branches (em Python)
 
