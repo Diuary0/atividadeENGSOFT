@@ -57,11 +57,11 @@ Execute de novo `coverage run` e `coverage report` e verifique que a cobertura d
 
 Para calcular também a cobertura de branches, use agora:
 
-`coverage run --branch -m unittest`.
+`coverage run --branch -m unittest`
 
 E depois:
 
-`coverage report -m sistema.py`.
+`coverage report -m sistema.py`
 
 A saída é uma tabela com as seguintes colunas:
 
