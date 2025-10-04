@@ -28,3 +28,8 @@ Para verificar se ambos estão corretamente instalados, use:
 Existem alguns exemplos em JavaScript. Neste caso, você vai precisar do [Node.js](https://nodejs.org/en). Para testar a instalação, use:
 
 ```node -v```
+
+### Python
+
+Existem ainda alguns exemplos implementados em Python 3.
+
