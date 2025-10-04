@@ -12,7 +12,7 @@ O exemplo está implementado em Python e usa:
 
 Estude o código da função `valor_abs`, implementada no arquivo [sistema.py](https://github.com/mtov/ESM-ExemplosCodigo/blob/master/cap8/exemplo8/sistema.py). Ela calcula o valor absoluto de um número.
 
-Estude o teste desta função, implementado em [teste.py](cap8/exemplo8/teste.py)
+Estude o teste desta função, implementado em [teste.py](https://github.com/mtov/ESM-ExemplosCodigo/blob/master/cap8/exemplo8/teste.py)
 
 ### Tarefa 2: Rodando o teste
 
