@@ -12,6 +12,7 @@ Apesar de simples e auto-contidos, os exemplos a seguir foram pensados para emul
 * [Template Method](https://github.com/mtov/ESM-ExemplosCodigo/tree/master/cap6/8-template-method)
 * [Visitor](https://github.com/mtov/ESM-ExemplosCodigo/tree/master/cap6/9-visitor)
 * [Builder](https://github.com/mtov/ESM-ExemplosCodigo/tree/master/cap6/10-builder)
+* [Composite](https://github.com/mtov/ESM-ExemplosCodigo/tree/master/cap6/11-composite)
 
 Para compilar o código de qualquer um desses padrões de projeto, digite (no diretório do respectivo padrão de projeto):
 
