@@ -14,9 +14,7 @@ Para executar, digite no diretório ```hexagonal-js```:
 
 ```node server.js```
 
-E depois entre em um browser e digite:
-
-http://localhost:3000
+E depois entre em um browser e digite: `http://localhost:3000`
 
 ## Diagrama de Sequência
 
