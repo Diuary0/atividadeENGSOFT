@@ -4,7 +4,7 @@ Apesar de simples e auto-contidos, os exemplos a seguir foram pensados para emul
 
 * [Fábrica](./1-fabrica)
 * [Singleton](./2-singleton)
-* [Proxy](./cap6/3-proxy)
+* [Proxy](./3-proxy)
 * [Adaptador](./4-adaptador)
 * [Decorador](./5-decorador)
 * [Strategy](./6-strategy)
