@@ -2,7 +2,7 @@
 
 Exemplo simples de Property-Based Test, usando o framework [Hypothesis](https://hypothesis.works/).
 
-Arquivo com o teste: [test_pbt.py](https://github.com/mtov/ESM-ExemplosCodigo/blob/master/cap8/exemplo9/test_pbt.py)
+Arquivo com o teste: [test_pbt.py](./test_pbt.py)
 
 ## Como rodar o teste?
 
