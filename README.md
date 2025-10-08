@@ -4,9 +4,9 @@ Exemplos de código do livro [Engenharia de Software Moderna](https://engsoftmod
 Marco Tulio Valente.
 
 * [Capítulo 5](./cap5/README.md) - Exemplos sobre conceitos básicos de orientação a objetos
-* [Capítulo 6](https://github.com/mtov/ESM-ExemplosCodigo/blob/master/cap6/README.md) - Exemplos de padrões de projeto
-* [Capítulo 7](https://github.com/mtov/ESM-ExemplosCodigo/blob/master/cap7/README.md) - Exemplos de arquitetura de software
-* [Capítulo 8](https://github.com/mtov/ESM-ExemplosCodigo/blob/master/cap8/README.md) - Exemplos de testes de software
+* [Capítulo 6](./cap6/README.md) - Exemplos de padrões de projeto
+* [Capítulo 7](./cap7/README.md) - Exemplos de arquitetura de software
+* [Capítulo 8](./cap8/README.md) - Exemplos de testes de software
 
 ## Como rodar os exemplos?
 
