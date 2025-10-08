@@ -12,7 +12,9 @@ Digite no diretório ```mvc```:
 
 E depois entre em um browser e digite:
 
+```
 http://localhost:4567
+```
 
 ## Diagrama de Sequência
 
