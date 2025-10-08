@@ -4,10 +4,10 @@ Teste que usa um mock para testar um método estático. Para isso, utiliza-se um
 da versão 3.4.0. Antes dessa versão, não era possível criar mocks para métodos estáticos.
 
 Classe que é testada no exemplo: 
-[Sistema.java](https://github.com/mtov/ESM-ExemplosCodigo/blob/master/cap8/exemplo5/src/main/java/exemplo5/Sistema.java)
+[Sistema.java](./src/main/java/exemplo5/Sistema.java)
 
 Teste de unidade com um mock de método estático: 
-[TesteMocksMetodosEstaticos.java](https://github.com/mtov/ESM-ExemplosCodigo/blob/master/cap8/exemplo5/src/test/java/exemplo5/TesteMocksMetodosEstaticos.java)
+[TesteMocksMetodosEstaticos.java](./src/test/java/exemplo5/TesteMocksMetodosEstaticos.java)
 
 ## Como rodar os testes?
 
