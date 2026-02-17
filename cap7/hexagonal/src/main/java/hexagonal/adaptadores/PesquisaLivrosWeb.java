@@ -1,37 +1,38 @@
 package hexagonal.adaptadores;
 
-import static spark.Spark.*;
+import io.javalin.Javalin;
 import hexagonal.dominio.PesquisaLivros;
 
-// Oferece acesso ao sistema via Web/REST
-// Usando endpoints implementados via SparkJava
-// Conceitualmente, em uma Arquitetura Hexagonal, 
-// essa classe é um adaptador
-
+// Adaptador Web usando Javalin
 public class PesquisaLivrosWeb {
-   PesquisaLivros pesq;
+    private PesquisaLivros pesq;
 
-   public PesquisaLivrosWeb(PesquisaLivros pesq) {
-      this.pesq = pesq;
-   }
-   
-   public void start() {
-     port(4567);
-  
-     staticFiles.location("/static");
-        
-     get("/", (req, res) -> { 
-        res.redirect("index.html");
-        return null;
-     });
+    public PesquisaLivrosWeb(PesquisaLivros pesq) {
+        this.pesq = pesq;
+    }
 
-     get("/pesquisa", (req, res) -> { 
-        String autor = req.queryParams("autor");
-        return pesq.pesquisaPorAutor(autor);
-     });
+    public void start() {
+        // criando e configurando o servidor javalin
+        Javalin app = Javalin.create(config -> {
+            config.staticFiles.add("/static");
+        }).start(4567);
 
-     init();
-     awaitInitialization();
-     System.out.println("Spark rodando em http://localhost:" + port());
-   }
+        // rota principal
+        app.get("/", ctx -> {
+            ctx.redirect("/index.html");
+        });
+
+        // Rota de Pesquisa (API)
+        app.get("/pesquisa", ctx -> {
+            String autor = ctx.queryParam("autor");
+
+            // Mantive a lógica original do Spark: chamar o toString() do objeto.
+            // Se fosse pra produção, talvez fosse melhor usar ctx.json() aqui.
+            Object resultado = pesq.pesquisaPorAutor(autor);
+            // Javalin exige resposta explícita, não só retornar o objeto
+            ctx.result(String.valueOf(resultado));
+        });
+
+        System.out.println("Javalin rodando em http://localhost:4567");
+    }
 }
