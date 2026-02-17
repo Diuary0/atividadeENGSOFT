@@ -2,8 +2,8 @@ package hexagonal.adaptadores;
 
 import io.javalin.Javalin;
 import hexagonal.dominio.PesquisaLivros;
-
-// Adaptador Web usando Javalin
+//
+//
 public class PesquisaLivrosWeb {
     private PesquisaLivros pesq;
 
